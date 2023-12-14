@@ -22,8 +22,16 @@ function App() {
                 </div>
                 <div className='secondbox'>
                     <image className='imagebox'>IMG</image>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <p>REALIZACJE</p>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p>REALIZACJE</p>
+                    </div>
+                </div>
+                    <p>Z KIM WSPÓŁPRACOWALIŚMY</p>
+                <div className='thirdboxes'>
+                    <div className='thirdbox'>1.</div>
+                    <div className='thirdbox'>2.</div>
+                    <div className='thirdbox'>3.</div>
                 </div>
             </div>
         </>
