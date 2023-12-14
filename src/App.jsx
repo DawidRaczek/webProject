@@ -1,6 +1,6 @@
 import './App.scss'
-import Header from "./components/header.jsx";
-import Front from "./components/front.jsx";
+import Header from "./components/Header.jsx";
+import Front from "./components/Front.jsx";
 function App() {
     return (
         <>

@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/front.scss'
 
-function App() {
+function Front() {
     return (
         <>
             <div className='wrapper'>
@@ -38,4 +38,4 @@ function App() {
     )
 }
 
-export default App
+export default Front

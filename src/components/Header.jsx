@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/header.scss'
 
-function App() {
+function Header() {
     return (
         <>
             <header className='header'>
@@ -9,14 +9,14 @@ function App() {
                     <h1 className='title'>AUTOMAT</h1>
                 </div>
                 <div className='headerright'>
-                    <p>OFERTA</p>
-                    <p>O NAS</p>
-                    <p>KONTAKT</p>
-                    <p>REALIZACJE</p>
+                    <p className='headerrightnav'>OFERTA</p>
+                    <p className='headerrightnav'>O NAS</p>
+                    <p className='headerrightnav'>KONTAKT</p>
+                    <p className='headerrightnav'>REALIZACJE</p>
                 </div>
             </header>
         </>
     )
 }
 
-export default App
+export default Header
